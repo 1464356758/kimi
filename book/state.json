@@ -38,16 +38,27 @@
       "text_path": "chapters/CH003_8df17484e84c54800f3e35abddbd21833a503a55b03744f38596f8d6ea254a81.txt",
       "text_sha256": "8df17484e84c54800f3e35abddbd21833a503a55b03744f38596f8d6ea254a81",
       "title": "八分钱一斤"
+    },
+    "4": {
+      "frozen_at": "2026-11-21T03:57:47.002758+00:00",
+      "han_count": 5571,
+      "number": 4,
+      "record_path": "objects/f5cb39b387f80da932b8b64af2b80039236cbe10a7f4495c3046a0ef20fb1822.json",
+      "record_sha256": "f5cb39b387f80da932b8b64af2b80039236cbe10a7f4495c3046a0ef20fb1822",
+      "request_id": "ch004-2026-11-21-next",
+      "text_path": "chapters/CH004_e13b3e4dd74423262ce9a22e6e3bcddd17d4ead7aadd1ddd91778a4b992449ee.txt",
+      "text_sha256": "e13b3e4dd74423262ce9a22e6e3bcddd17d4ead7aadd1ddd91778a4b992449ee",
+      "title": "赵德山的味道"
     }
   },
   "edition": "novel-a7",
   "opening_path": "book/objects/2be9e4af058c3989b07bf2ea59c2f8ef6407a37b952ea48cd6ef00d07e262fa4.json",
   "platform": "七猫中文网",
   "repository_url": "https://github.com/1464356758/kimi",
-  "revision": 3,
+  "revision": 4,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "重生七九：白案师傅不伺候了",
-  "updated_at": "2026-11-21T03:33:38.508631+00:00",
+  "updated_at": "2026-11-21T03:57:47.002758+00:00",
   "version": "7.0.1"
 }

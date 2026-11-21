@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/05f90439f48b9ca5d185a1b08d1f7c424e8b167830e4b26e908440c4bcb7e172.json",
+  "assessment_sha256": "05f90439f48b9ca5d185a1b08d1f7c424e8b167830e4b26e908440c4bcb7e172",
+  "attachments": {
+    "memory": "book/objects/1ff02cbd2d59237b948c7bfc0c82d9f87889da7cf2528792556c90a2afa6ebb3.md",
+    "plan": "book/objects/63e5f42e69b8d0374e9509b250e9210f19d4d3b9ea4f7799c215bd2504d30618.md",
+    "review": "book/objects/a17b4bd0706ac68c8b651e96ad3dd8dffcc1dcb1dd30450facaf91130f43ebe5.md"
+  },
+  "book_id": "a38e711e-a759-403c-9193-0ea070bf5ed0",
+  "frozen_at": "2026-11-21T03:57:47.002758+00:00",
+  "han_count": 5571,
+  "hashes": {
+    "memory": "1ff02cbd2d59237b948c7bfc0c82d9f87889da7cf2528792556c90a2afa6ebb3",
+    "plan": "63e5f42e69b8d0374e9509b250e9210f19d4d3b9ea4f7799c215bd2504d30618",
+    "review": "a17b4bd0706ac68c8b651e96ad3dd8dffcc1dcb1dd30450facaf91130f43ebe5",
+    "text": "e13b3e4dd74423262ce9a22e6e3bcddd17d4ead7aadd1ddd91778a4b992449ee"
+  },
+  "number": 4,
+  "previous_record_sha256": "e16f521eda108a1808a2e4c806920f174fff7c41d84f3b80089cb716a44d2381",
+  "request_id": "ch004-2026-11-21-next",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH004_e13b3e4dd74423262ce9a22e6e3bcddd17d4ead7aadd1ddd91778a4b992449ee.txt",
+  "text_sha256": "e13b3e4dd74423262ce9a22e6e3bcddd17d4ead7aadd1ddd91778a4b992449ee",
+  "title": "赵德山的味道"
+}

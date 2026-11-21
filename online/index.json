@@ -28,15 +28,23 @@
       "sha256": "8df17484e84c54800f3e35abddbd21833a503a55b03744f38596f8d6ea254a81",
       "text_path": "book/chapters/CH003_8df17484e84c54800f3e35abddbd21833a503a55b03744f38596f8d6ea254a81.txt",
       "title": "八分钱一斤"
+    },
+    {
+      "han_count": 5571,
+      "number": 4,
+      "publication_status": "unconfirmed",
+      "sha256": "e13b3e4dd74423262ce9a22e6e3bcddd17d4ead7aadd1ddd91778a4b992449ee",
+      "text_path": "book/chapters/CH004_e13b3e4dd74423262ce9a22e6e3bcddd17d4ead7aadd1ddd91778a4b992449ee.txt",
+      "title": "赵德山的味道"
     }
   ],
   "edition": "novel-a7",
   "engine": "novel-v6",
-  "generated_at": "2026-11-21T03:33:38.508631+00:00",
+  "generated_at": "2026-11-21T03:57:47.002758+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 17015,
-    "adopted_chapters": 3,
+    "actual_han": 22586,
+    "adopted_chapters": 4,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -44,7 +52,7 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/kimi",
-    "state_sha256": "8491cf8ce007ee5ae4e560268fb79fb0f5bdeeafc6a0261f42b0ef66b40dead1"
+    "state_sha256": "182d3aa715ce52619cf0e31b09c3cf0c2e696c6c81141ca5a3df374ab04b9a9e"
   },
   "task": {
     "label": "等待作者指令",
