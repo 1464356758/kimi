@@ -5,15 +5,27 @@
     5500,
     6500
   ],
-  "chapters": {},
+  "chapters": {
+    "1": {
+      "frozen_at": "2026-11-21T01:12:45.164815+00:00",
+      "han_count": 5536,
+      "number": 1,
+      "record_path": "objects/597d491066c6aecbc3a55bbc8af97038266b5e5a942571f095571798f9b53056.json",
+      "record_sha256": "597d491066c6aecbc3a55bbc8af97038266b5e5a942571f095571798f9b53056",
+      "request_id": "ch001-2026-11-21-start",
+      "text_path": "chapters/CH001_5934b3e2bd3efe908c2a010e33476c26de762620fd3aa58313dd3e721558ebf7.txt",
+      "text_sha256": "5934b3e2bd3efe908c2a010e33476c26de762620fd3aa58313dd3e721558ebf7",
+      "title": "我不嫁"
+    }
+  },
   "edition": "novel-a7",
   "opening_path": "book/objects/2be9e4af058c3989b07bf2ea59c2f8ef6407a37b952ea48cd6ef00d07e262fa4.json",
   "platform": "七猫中文网",
   "repository_url": "https://github.com/1464356758/kimi",
-  "revision": 0,
+  "revision": 1,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "重生七九：白案师傅不伺候了",
-  "updated_at": "2026-11-21T00:21:13.128133+00:00",
+  "updated_at": "2026-11-21T01:12:45.164815+00:00",
   "version": "7.0.1"
 }

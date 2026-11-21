@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/6fa788a63b86ecd05a2d682fa6ab4b5752729c61c5737684a002a27f29842ba0.json",
+  "assessment_sha256": "6fa788a63b86ecd05a2d682fa6ab4b5752729c61c5737684a002a27f29842ba0",
+  "attachments": {
+    "memory": "book/objects/3543ed7272d4c6159b08ddf770c91eb426a7aafdd598715ca2af03c19c2a48c8.md",
+    "plan": "book/objects/63e5f42e69b8d0374e9509b250e9210f19d4d3b9ea4f7799c215bd2504d30618.md",
+    "review": "book/objects/ed3425d74cd1c5ee2c9e256ba2cd57b608bea85272195ab94ff493d23ccaaf08.md"
+  },
+  "book_id": "a38e711e-a759-403c-9193-0ea070bf5ed0",
+  "frozen_at": "2026-11-21T01:12:45.164815+00:00",
+  "han_count": 5536,
+  "hashes": {
+    "memory": "3543ed7272d4c6159b08ddf770c91eb426a7aafdd598715ca2af03c19c2a48c8",
+    "plan": "63e5f42e69b8d0374e9509b250e9210f19d4d3b9ea4f7799c215bd2504d30618",
+    "review": "ed3425d74cd1c5ee2c9e256ba2cd57b608bea85272195ab94ff493d23ccaaf08",
+    "text": "5934b3e2bd3efe908c2a010e33476c26de762620fd3aa58313dd3e721558ebf7"
+  },
+  "number": 1,
+  "previous_record_sha256": null,
+  "request_id": "ch001-2026-11-21-start",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH001_5934b3e2bd3efe908c2a010e33476c26de762620fd3aa58313dd3e721558ebf7.txt",
+  "text_sha256": "5934b3e2bd3efe908c2a010e33476c26de762620fd3aa58313dd3e721558ebf7",
+  "title": "我不嫁"
+}
