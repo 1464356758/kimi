@@ -19,7 +19,7 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/kimi",
-    "state_sha256": "2176eec7ca05c81a7da91aaf9b0562b6b5b80d7a9310f364861e748a49620c63"
+    "state_sha256": "cc895b383087db90519c25aac2a30e105d27243949db6636df163f025c658ad7"
   },
   "task": {
     "label": "等待作者指令",
