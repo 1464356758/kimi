@@ -16,16 +16,27 @@
       "text_path": "chapters/CH001_5934b3e2bd3efe908c2a010e33476c26de762620fd3aa58313dd3e721558ebf7.txt",
       "text_sha256": "5934b3e2bd3efe908c2a010e33476c26de762620fd3aa58313dd3e721558ebf7",
       "title": "我不嫁"
+    },
+    "2": {
+      "frozen_at": "2026-11-21T02:07:23.995166+00:00",
+      "han_count": 5682,
+      "number": 2,
+      "record_path": "objects/466a66cc2bd798ed15bc3d4280c7da51527042955c3aafe5860d14d0134ef84b.json",
+      "record_sha256": "466a66cc2bd798ed15bc3d4280c7da51527042955c3aafe5860d14d0134ef84b",
+      "request_id": "ch002-2026-11-21-next",
+      "text_path": "chapters/CH002_758c46db515cd470140e37412c7470def6e87217ad478c7b104f89ce816e2806.txt",
+      "text_sha256": "758c46db515cd470140e37412c7470def6e87217ad478c7b104f89ce816e2806",
+      "title": "三个签名"
     }
   },
   "edition": "novel-a7",
   "opening_path": "book/objects/2be9e4af058c3989b07bf2ea59c2f8ef6407a37b952ea48cd6ef00d07e262fa4.json",
   "platform": "七猫中文网",
   "repository_url": "https://github.com/1464356758/kimi",
-  "revision": 1,
+  "revision": 2,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "重生七九：白案师傅不伺候了",
-  "updated_at": "2026-11-21T01:12:45.164815+00:00",
+  "updated_at": "2026-11-21T02:07:23.995166+00:00",
   "version": "7.0.1"
 }

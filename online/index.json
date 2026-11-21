@@ -12,15 +12,23 @@
       "sha256": "5934b3e2bd3efe908c2a010e33476c26de762620fd3aa58313dd3e721558ebf7",
       "text_path": "book/chapters/CH001_5934b3e2bd3efe908c2a010e33476c26de762620fd3aa58313dd3e721558ebf7.txt",
       "title": "我不嫁"
+    },
+    {
+      "han_count": 5682,
+      "number": 2,
+      "publication_status": "unconfirmed",
+      "sha256": "758c46db515cd470140e37412c7470def6e87217ad478c7b104f89ce816e2806",
+      "text_path": "book/chapters/CH002_758c46db515cd470140e37412c7470def6e87217ad478c7b104f89ce816e2806.txt",
+      "title": "三个签名"
     }
   ],
   "edition": "novel-a7",
   "engine": "novel-v6",
-  "generated_at": "2026-11-21T01:12:45.164815+00:00",
+  "generated_at": "2026-11-21T02:07:23.995166+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 5536,
-    "adopted_chapters": 1,
+    "actual_han": 11218,
+    "adopted_chapters": 2,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -28,7 +36,7 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/kimi",
-    "state_sha256": "fc4deb88ad8aae7bac2a26c3c7324b3b8e3b8959ee8052586327270b6a32064d"
+    "state_sha256": "ae658d6bea157f3ee8c41377e4e4671b2cc7b7b5e366ab5f46aed377cda1c5bd"
   },
   "task": {
     "label": "等待作者指令",

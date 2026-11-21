@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/51f8636867a0182f0941e53c688578c903cda6e2fce15fdb74d405c5385fb3a9.json",
+  "assessment_sha256": "51f8636867a0182f0941e53c688578c903cda6e2fce15fdb74d405c5385fb3a9",
+  "attachments": {
+    "memory": "book/objects/3a77a5ee422bfa86daded64e79e03cc6ff4070b4d6e960ff99e38c74eb7e7f74.md",
+    "plan": "book/objects/63e5f42e69b8d0374e9509b250e9210f19d4d3b9ea4f7799c215bd2504d30618.md",
+    "review": "book/objects/f67ac3b86e3f4fbdc2fd3d499d620c9564ec331520296c9cdf58ad42e6ae33f4.md"
+  },
+  "book_id": "a38e711e-a759-403c-9193-0ea070bf5ed0",
+  "frozen_at": "2026-11-21T02:07:23.995166+00:00",
+  "han_count": 5682,
+  "hashes": {
+    "memory": "3a77a5ee422bfa86daded64e79e03cc6ff4070b4d6e960ff99e38c74eb7e7f74",
+    "plan": "63e5f42e69b8d0374e9509b250e9210f19d4d3b9ea4f7799c215bd2504d30618",
+    "review": "f67ac3b86e3f4fbdc2fd3d499d620c9564ec331520296c9cdf58ad42e6ae33f4",
+    "text": "758c46db515cd470140e37412c7470def6e87217ad478c7b104f89ce816e2806"
+  },
+  "number": 2,
+  "previous_record_sha256": "597d491066c6aecbc3a55bbc8af97038266b5e5a942571f095571798f9b53056",
+  "request_id": "ch002-2026-11-21-next",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH002_758c46db515cd470140e37412c7470def6e87217ad478c7b104f89ce816e2806.txt",
+  "text_sha256": "758c46db515cd470140e37412c7470def6e87217ad478c7b104f89ce816e2806",
+  "title": "三个签名"
+}
