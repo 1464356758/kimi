@@ -12,12 +12,13 @@ import tempfile
 import uuid
 from tools import opening
 
-VERSION = "7.0.1"
+VERSION = "7.0.2"
+COMPATIBLE_VERSIONS = {"7.0.1", "7.0.2"}
 SCHEMA = "novel-v6"
 EDITION = "novel-a7"
 PACKAGE_FILES = {"AGENTS.md", "WORKFLOW.md", "CRAFT.md", "README.md", "THIRD_PARTY_NOTICES.md",
                  "novel.py", "templates/plan.md", "tools/prose_check.py", "tools/opening.py",
-                 "读稿示范.md", "启动新书.txt"}
+                 "tools/push_check.py", "读稿示范.md", "启动新书.txt"}
 
 
 class Problem(ValueError):
@@ -145,7 +146,7 @@ class Book:
     def snapshot(self):
         raw = self.read("book/state.json")
         s = document(raw, "book/state.json")
-        require(s.get("schema") == SCHEMA and s.get("edition") == EDITION and s.get("version") == VERSION,
+        require(s.get("schema") == SCHEMA and s.get("edition") == EDITION and s.get("version") in COMPATIBLE_VERSIONS,
                 "该书使用其他版本。请加载仓库内的原引擎与工作指令")
         require(type(s.get("revision")) is int and 0 <= s["revision"] <= 2000 and isinstance(s.get("chapters"), dict)
                 and set(s["chapters"]) == {str(n) for n in range(1, s["revision"] + 1)}, "状态版本与章序不符")
