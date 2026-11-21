@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/1c139aed5b28a40e28cc311e12d5294d97713fd9ffdd5e5e874a6043684ee954.json",
+  "assessment_sha256": "1c139aed5b28a40e28cc311e12d5294d97713fd9ffdd5e5e874a6043684ee954",
+  "attachments": {
+    "memory": "book/objects/f11b777d04915b419499987afa0f46f8c5142bc705a92419c06c72d902ba739b.md",
+    "plan": "book/objects/63e5f42e69b8d0374e9509b250e9210f19d4d3b9ea4f7799c215bd2504d30618.md",
+    "review": "book/objects/70942f70a20fc3ad486c702e4d3030b629f1c74a3715bbc3764c9a5a97a278b6.md"
+  },
+  "book_id": "a38e711e-a759-403c-9193-0ea070bf5ed0",
+  "frozen_at": "2026-11-21T03:33:38.508631+00:00",
+  "han_count": 5797,
+  "hashes": {
+    "memory": "f11b777d04915b419499987afa0f46f8c5142bc705a92419c06c72d902ba739b",
+    "plan": "63e5f42e69b8d0374e9509b250e9210f19d4d3b9ea4f7799c215bd2504d30618",
+    "review": "70942f70a20fc3ad486c702e4d3030b629f1c74a3715bbc3764c9a5a97a278b6",
+    "text": "8df17484e84c54800f3e35abddbd21833a503a55b03744f38596f8d6ea254a81"
+  },
+  "number": 3,
+  "previous_record_sha256": "466a66cc2bd798ed15bc3d4280c7da51527042955c3aafe5860d14d0134ef84b",
+  "request_id": "ch003-2026-11-21-next",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH003_8df17484e84c54800f3e35abddbd21833a503a55b03744f38596f8d6ea254a81.txt",
+  "text_sha256": "8df17484e84c54800f3e35abddbd21833a503a55b03744f38596f8d6ea254a81",
+  "title": "八分钱一斤"
+}
