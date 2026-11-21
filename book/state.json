@@ -1,0 +1,18 @@
+{
+  "book_id": "a38e711e-a759-403c-9193-0ea070bf5ed0",
+  "branch": "main",
+  "chapter_han": [
+    5500,
+    6500
+  ],
+  "chapters": {},
+  "edition": "novel-a7",
+  "platform": "七猫中文网",
+  "repository_url": "https://github.com/1464356758/kimi",
+  "revision": 0,
+  "schema": "novel-v6",
+  "target_chapters": 150,
+  "title": "",
+  "updated_at": "2026-11-20T23:55:00.939616+00:00",
+  "version": "7.0.1"
+}
