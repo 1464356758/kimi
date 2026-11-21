@@ -186,29 +186,41 @@ def anchored(entry, text, label):
     return quote
 
 
-def window_reading(window, pages):
+def window_reading(window, pages, full=None):
     check(isinstance(window, dict), "请重读首章或送审窗口内已经写出的正文")
     available = dict(pages)
+    full = full or available
     spans = {}
     for key, label in [("promise", "读者产生期待的位置"), ("delivery", "读者看到结果的位置")]:
         entry = window.get(key)
         check(isinstance(entry, dict) and type(entry.get("chapter")) is int
-              and entry["chapter"] in available, label + "缺少窗口内的原文章号")
+              and entry["chapter"] in full, label + "缺少实际原文章号")
         chapter = entry["chapter"]
-        text = available[chapter]
-        quote = anchored(entry, text, label)
+        text = full[chapter]
+        quote = nonempty(entry.get("quote"), label + "原句")
+        nonempty(entry.get("why"), label + "判断")
+        check(4 <= len(quote) <= 120 and quote in text, label + "短引不在对应的实际正文中")
+        seen = quote in available.get(chapter, "")
+        if not seen:
+            check(key == "delivery" and entry.get("beyond_window") is True,
+                  label + "短引不在送审窗口可见部分；结果落在截点之后时，请如实标 beyond_window")
         offset = text.index(quote)
         check(text.find(quote, offset + 1) < 0, label + "在同章有多处，请补上下文定位")
-        spans[key] = ((chapter, offset), (chapter, offset + len(quote)))
+        spans[key] = ((chapter, offset), (chapter, offset + len(quote)), seen)
     order = window.get("order", "setup_first")
     check(order in ("setup_first", "result_first"), "请选择顺叙或先见结果再揭起因")
     first, second = ("promise", "delivery") if order == "setup_first" else ("delivery", "promise")
     check(spans[first][1] <= spans[second][0], "两处证据重叠或与所报呈现顺序不符")
-    effect = nonempty(window.get("effect"), "已发生结果的正文原段")
     delivery = window["delivery"]
-    check(len(effect) <= 600 and delivery["quote"].strip() in effect
-          and effect in available[delivery["chapter"]],
-          "结果原段须在同一可见章节逐字出现，并含结果短引；推断请写在 why")
+    if spans["delivery"][2]:
+        effect = nonempty(window.get("effect"), "已发生结果的正文原段")
+        check(len(effect) <= 600 and delivery["quote"].strip() in effect
+              and effect in available[delivery["chapter"]],
+              "结果原段须在同一可见章节逐字出现，并含结果短引；推断请写在 why")
+    else:
+        check(not str(window.get("effect") or "").strip(),
+              "结果在送审截点之后，effect 留空，窗口内实际所见写进 pending")
+        nonempty(window.get("pending"), "结果在送审截点之后：写明截点前读者已经看到什么、还在等什么")
 
 
 def reading(book, state, number, body, evidence, opening, han):
@@ -228,7 +240,13 @@ def reading(book, state, number, body, evidence, opening, han):
         anchored(evidence.get("previous"), prev, "上一章留下的后果与本章差别")
     if number == 1 or crossing:
         pages = first_pages(book, state, number, body, opening["window_han"], han)
-        window_reading(evidence.get("window"), pages)
+        full = {}
+        for n in range(1, number + 1):
+            if n == number:
+                full[n] = body
+            else:
+                full[n] = book.read("book/" + state["chapters"][str(n)]["text_path"]).decode()
+        window_reading(evidence.get("window"), pages, full)
 
 
 def add_arguments(sub):
